@@ -1,0 +1,5 @@
+.clock {
+    --test: 1;
+    color: var(--accentColorLighter);
+    padding-inline-end: var(--gap6, 8px);
+}
