@@ -72,10 +72,6 @@
 		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Resources\" />
-	</ItemGroup>
-
 	<Target Name="BuildUI" AfterTargets="AfterBuild">
 		<Exec Command="npm run build" WorkingDirectory="$(ProjectDir)/csii-clock" />
 	</Target>
